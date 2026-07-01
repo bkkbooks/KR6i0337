@@ -1,0 +1,19 @@
+canonical_identifier: bkk:krp/KR6i0337/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+  markers:
+  - {type: 其他, offset: 0, content: 楞伽經註, id: KR6i0337_X_000-mulu-1, level: '1'}
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 楞伽經註
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X17/X17n0321.xml
+    old_id: X17n0321
+hash: sha256:b7ba65db1a7f862294cd07aef21b381c117f26305bac0cd7cc8bd7f54ac33527

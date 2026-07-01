@@ -1,0 +1,86 @@
+canonical_identifier: bkk:krp/KR6i0337/v1
+canonical_location: https://kanripo.org/bkk/KR6i0337/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 楞伽經註
+  identifiers:
+    alt_id:
+    - X17n0321
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X17/X17n0321.xml
+    old_id: X17n0321
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0337_000.yaml, hash: 'sha256:b7ba65db1a7f862294cd07aef21b381c117f26305bac0cd7cc8bd7f54ac33527'}
+  - {seq: 1, filename: KR6i0337_001.yaml, hash: 'sha256:8c7ba00ffdc611b3cb8cf2d9d6733af32a91837ce2cd2c6efe0abe0eeb590e0a'}
+  - {seq: 2, filename: KR6i0337_002.yaml, hash: 'sha256:615c0675d18ad789c322c2c8de56a73e00ba4ba836fc5d028988646c694d5bd8'}
+  - {seq: 5, filename: KR6i0337_005.yaml, hash: 'sha256:312b9cf02136a66626d35a26357028b6769f6d3ca6853e19edefa50b3434a6b2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0337_001.markers.yaml, hash: 'sha256:76a57f4e46259a4424cd3d05162f2ddd0e8538296c20c01a8c05be34aa21ac6d'}
+  - {seq: 2, role: markers, filename: assets/KR6i0337_002.markers.yaml, hash: 'sha256:e938c0ef50d884ab5f07d37fe9a679b3ed25e66f63d95eb7c2b392dde187f258'}
+  - {seq: 5, role: markers, filename: assets/KR6i0337_005.markers.yaml, hash: 'sha256:84fa687f499d586ada8467a8e5d2779d43cd17661931e606a7e9fe96a2e67acb'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6i0337_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 楞伽經註
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0337_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 1239
+  label: 註楞伽阿䟦多羅寶經卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0337_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 10048
+  label: 註楞伽阿䟦多羅寶經卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6i0337_X_005-juan-start
+    span:
+    - body
+    - 0
+    - 10038
+  label: 楞伽阿䟦多羅寶經　一切佛語心品　卷第五
+  type: juan
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6i0337_X_005-mulu-1
+    span:
+    - body
+    - 9835
+    - 9835
+  label: No. 321-A
+  type: mulu
+  level: 1
+hash: sha256:5df10889e681605f698eb21603d605ba742662c86f51a8e77a5cece71100d5fe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
